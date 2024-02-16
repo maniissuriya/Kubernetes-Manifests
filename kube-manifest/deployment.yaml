@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: todo-app-container
-        image: joelplush/todo-app:v4
+        image: nginx:1.24
         ports:
         - containerPort: 80
